@@ -1,0 +1,82 @@
+{
+  "name": "Mochi Catgirl Theme",
+  "description": "A soft dark Discord theme based on the Mochi catgirl artwork.",
+  "authors": [
+    {
+      "name": "Hori"
+    }
+  ],
+  "background": {
+    "url": "https://raw.githubusercontent.com/Ddeveloper-sr/Cat-theme/main/48e975d8b4ed8e04248e2b90bcafaffa.jpg",
+    "alpha": 0.38,
+    "size": "cover",
+    "position": "center"
+  },
+  "colors": {
+    "PRIMARY": "#F4A6C8",
+    "PRIMARY_DARK": "#D979A7",
+    "PRIMARY_LIGHT": "#FFD1E2",
+
+    "BACKGROUND_PRIMARY": "transparent",
+    "BACKGROUND_SECONDARY": "transparent",
+    "BACKGROUND_SECONDARY_ALT": "#21151BCC",
+    "BACKGROUND_TERTIARY": "#2A1A22CC",
+
+    "CHAT_BACKGROUND": "transparent",
+
+    "TEXT_NORMAL": "#F7EAF0",
+    "TEXT_MUTED": "#BFA9B2",
+    "TEXT_LINK": "#F4A6C8",
+    "TEXT_POSITIVE": "#A8E6CF",
+    "TEXT_WARNING": "#FFD59A",
+    "TEXT_DANGER": "#FF9FAF",
+
+    "HEADER_PRIMARY": "#FFF2F7",
+    "HEADER_SECONDARY": "#DCC8D0",
+
+    "INTERACTIVE_NORMAL": "#E8CBD5",
+    "INTERACTIVE_HOVER": "#F4A6C8",
+    "INTERACTIVE_ACTIVE": "#FFD1E2",
+    "INTERACTIVE_MUTED": "#806C74",
+
+    "CHANNELS_DEFAULT": "#C9B4BD",
+
+    "BRAND_EXPERIMENTAL": "#F4A6C8",
+    "BRAND_500": "#F4A6C8",
+    "BRAND_560": "#D979A7",
+    "BRAND_600": "#C76596",
+    "BRAND_700": "#A94F7B",
+
+    "BUTTON_PRIMARY_BACKGROUND": "#D979A7",
+    "BUTTON_PRIMARY_BACKGROUND_HOVER": "#F4A6C8",
+    "BUTTON_PRIMARY_TEXT": "#FFFFFF",
+
+    "BUTTON_SECONDARY_BACKGROUND": "#3A2730CC",
+    "BUTTON_SECONDARY_BACKGROUND_HOVER": "#4A303BCC",
+    "BUTTON_SECONDARY_TEXT": "#F7EAF0",
+
+    "MODAL_BACKGROUND": "#21151BF2",
+    "MODAL_FOOTER_BACKGROUND": "#181115F2",
+
+    "INPUT_BACKGROUND": "#120C10CC",
+    "INPUT_PLACEHOLDER_TEXT": "#907B84",
+
+    "SCROLLBAR_THIN_THUMB": "#F4A6C888",
+    "SCROLLBAR_THIN_TRACK": "transparent",
+
+    "BACKGROUND_FLOATING": "#21151BF2",
+    "BACKGROUND_MOBILE_PRIMARY": "#181115E6",
+    "BACKGROUND_MOBILE_SECONDARY": "#21151BE6",
+
+    "CHANNEL_TEXT_AREA_PLACEHOLDER": "#A98F99",
+    "CHANNEL_ICON": "#BFA9B2",
+    "CHANNEL_ICON_ACTIVE": "#F4A6C8",
+
+    "MENTION_BACKGROUND": "#F4A6C833",
+    "MENTION_FOREGROUND": "#FFD1E2",
+
+    "STATUS_POSITIVE": "#A8E6CF",
+    "STATUS_WARNING": "#FFD59A",
+    "STATUS_DANGER": "#FF9FAF"
+  }
+}
