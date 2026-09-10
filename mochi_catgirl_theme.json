@@ -513,7 +513,7 @@
     "IMAGE_ACCENT_BROWN": "#8D7478"
   },
   "background": {
-    "url": "48e975d8b4ed8e04248e2b90bcafaffa.jpg",
+    "url": "https://raw.githubusercontent.com/Ddeveloper-sr/Cat-theme/refs/heads/main/48e975d8b4ed8e04248e2b90bcafaffa.jpg",
     "alpha": 0.38,
     "size": "cover",
     "position": "center"
