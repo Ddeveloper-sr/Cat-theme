@@ -1,85 +1,355 @@
 {
-  "name": "Mochi Catgirl Handwritten",
-  "description": "A soft dark Discord theme featuring the Mochi catgirl artwork, pink accents, transparent panels, and a handwritten font.",
+  "name": "Mochi Catgirl",
+  "description": "A soft catgirl Discord theme based on the supplied artwork.",
   "authors": [
     {
-      "name": "Hori"
+      "name": "Hori",
+      "id": "1"
     }
   ],
+  "spec": 2,
+
   "background": {
     "url": "https://raw.githubusercontent.com/Ddeveloper-sr/Cat-theme/main/48e975d8b4ed8e04248e2b90bcafaffa.jpg",
+    "blur": 0.0,
     "alpha": 0.5,
     "size": "cover",
     "position": "center"
   },
-  "fonts": {
-    "*": "https://raw.githubusercontent.com/google/fonts/main/ofl/caveat/Caveat%5Bwght%5D.ttf"
+
+  "semanticColors": {
+    "BACKGROUND_PRIMARY": [
+      "transparent",
+      "transparent",
+      "transparent"
+    ],
+    "BACKGROUND_SECONDARY": [
+      "transparent",
+      "transparent",
+      "transparent"
+    ],
+    "BACKGROUND_SECONDARY_ALT": [
+      "rgba(24,17,20,0.72)",
+      "rgba(24,17,20,0.72)",
+      "rgba(24,17,20,0.72)"
+    ],
+    "BACKGROUND_TERTIARY": [
+      "rgba(16,11,13,0.55)",
+      "rgba(16,11,13,0.55)",
+      "rgba(16,11,13,0.55)"
+    ],
+
+    "CHAT_BACKGROUND": [
+      "transparent",
+      "transparent",
+      "transparent"
+    ],
+
+    "BACKGROUND_MOBILE_PRIMARY": [
+      "#181114",
+      "#181114",
+      "#181114"
+    ],
+    "BACKGROUND_MOBILE_SECONDARY": [
+      "#24191D",
+      "#24191D",
+      "#24191D"
+    ],
+
+    "BACKGROUND_FLOATING": [
+      "rgba(42,29,33,0.94)",
+      "rgba(42,29,33,0.94)",
+      "rgba(42,29,33,0.94)"
+    ],
+
+    "BACKGROUND_NESTED_FLOATING": [
+      "rgba(48,33,38,0.94)",
+      "rgba(48,33,38,0.94)",
+      "rgba(48,33,38,0.94)"
+    ],
+
+    "BACKGROUND_MODIFIER_ACCENT": [
+      "rgba(216,137,153,0.18)",
+      "rgba(216,137,153,0.18)",
+      "rgba(216,137,153,0.18)"
+    ],
+    "BACKGROUND_MODIFIER_HOVER": [
+      "rgba(216,137,153,0.12)",
+      "rgba(216,137,153,0.12)",
+      "rgba(216,137,153,0.12)"
+    ],
+    "BACKGROUND_MODIFIER_ACTIVE": [
+      "rgba(216,137,153,0.20)",
+      "rgba(216,137,153,0.20)",
+      "rgba(216,137,153,0.20)"
+    ],
+    "BACKGROUND_MODIFIER_SELECTED": [
+      "rgba(216,137,153,0.28)",
+      "rgba(216,137,153,0.28)",
+      "rgba(216,137,153,0.28)"
+    ],
+
+    "HEADER_PRIMARY": [
+      "#FFF7F7",
+      "#FFF7F7",
+      "#FFF7F7"
+    ],
+    "HEADER_SECONDARY": [
+      "#F0B7C1",
+      "#F0B7C1",
+      "#F0B7C1"
+    ],
+
+    "TEXT_NORMAL": [
+      "#F6ECEE",
+      "#F6ECEE",
+      "#F6ECEE"
+    ],
+    "TEXT_MUTED": [
+      "#B49EA3",
+      "#B49EA3",
+      "#B49EA3"
+    ],
+    "TEXT_LINK": [
+      "#F0B7C1",
+      "#F0B7C1",
+      "#F0B7C1"
+    ],
+    "TEXT_LINK_LOW_SATURATION": [
+      "#D6AAB2",
+      "#D6AAB2",
+      "#D6AAB2"
+    ],
+
+    "INTERACTIVE_NORMAL": [
+      "#DCC8CB",
+      "#DCC8CB",
+      "#DCC8CB"
+    ],
+    "INTERACTIVE_HOVER": [
+      "#F0B7C1",
+      "#F0B7C1",
+      "#F0B7C1"
+    ],
+    "INTERACTIVE_ACTIVE": [
+      "#FFFFFF",
+      "#FFFFFF",
+      "#FFFFFF"
+    ],
+    "INTERACTIVE_MUTED": [
+      "#705D62",
+      "#705D62",
+      "#705D62"
+    ],
+
+    "CHANNELS_DEFAULT": [
+      "#B49EA3",
+      "#B49EA3",
+      "#B49EA3"
+    ],
+    "CHANNEL_ICON": [
+      "#D88999",
+      "#D88999",
+      "#D88999"
+    ],
+
+    "CHANNEL_TEXT_AREA_PLACEHOLDER": [
+      "#B49EA3",
+      "#B49EA3",
+      "#B49EA3"
+    ],
+
+    "CHANNELTEXTAREA_BACKGROUND": [
+      "rgba(48,33,38,0.78)",
+      "rgba(48,33,38,0.78)",
+      "rgba(48,33,38,0.78)"
+    ],
+
+    "INPUT_BACKGROUND": [
+      "rgba(42,29,33,0.82)",
+      "rgba(42,29,33,0.82)",
+      "rgba(42,29,33,0.82)"
+    ],
+
+    "BRAND_260": [
+      "#F0B7C1",
+      "#F0B7C1",
+      "#F0B7C1"
+    ],
+
+    "BRAND_360": [
+      "#E5A0AE",
+      "#E5A0AE",
+      "#E5A0AE"
+    ],
+
+    "BRAND_500": [
+      "#D88999",
+      "#D88999",
+      "#D88999"
+    ],
+
+    "BRAND_560": [
+      "#C06F80",
+      "#C06F80",
+      "#C06F80"
+    ],
+
+    "FOCUS_PRIMARY": [
+      "#D88999",
+      "#D88999",
+      "#D88999"
+    ],
+
+    "LOGO_PRIMARY": [
+      "#F0B7C1",
+      "#F0B7C1",
+      "#F0B7C1"
+    ],
+
+    "STATUS_DANGER_BACKGROUND": [
+      "#E27F91",
+      "#E27F91",
+      "#E27F91"
+    ],
+    "STATUS_DANGER_TEXT": [
+      "#FFFFFF",
+      "#FFFFFF",
+      "#FFFFFF"
+    ],
+
+    "STATUS_POSITIVE_BACKGROUND": [
+      "#8FBF9F",
+      "#8FBF9F",
+      "#8FBF9F"
+    ],
+    "STATUS_POSITIVE_TEXT": [
+      "#FFFFFF",
+      "#FFFFFF",
+      "#FFFFFF"
+    ],
+
+    "STATUS_WARNING_BACKGROUND": [
+      "#E9B97A",
+      "#E9B97A",
+      "#E9B97A"
+    ],
+    "STATUS_WARNING_TEXT": [
+      "#24191D",
+      "#24191D",
+      "#24191D"
+    ],
+
+    "TEXT_DANGER": [
+      "#E27F91",
+      "#E27F91",
+      "#E27F91"
+    ],
+    "TEXT_POSITIVE": [
+      "#A8D0B3",
+      "#A8D0B3",
+      "#A8D0B3"
+    ],
+    "TEXT_WARNING": [
+      "#E9B97A",
+      "#E9B97A",
+      "#E9B97A"
+    ],
+
+    "MENTION_FOREGROUND": [
+      "#FFFFFF",
+      "#FFFFFF",
+      "#FFFFFF"
+    ],
+    "BACKGROUND_MENTIONED": [
+      "rgba(216,137,153,0.12)",
+      "rgba(216,137,153,0.12)",
+      "rgba(216,137,153,0.12)"
+    ],
+    "BACKGROUND_MENTIONED_HOVER": [
+      "rgba(216,137,153,0.20)",
+      "rgba(216,137,153,0.20)",
+      "rgba(216,137,153,0.20)"
+    ],
+
+    "BACKGROUND_MESSAGE_HOVER": [
+      "rgba(255,255,255,0.06)",
+      "rgba(255,255,255,0.06)",
+      "rgba(255,255,255,0.06)"
+    ],
+
+    "PANEL_BG": [
+      "rgba(48,33,38,0.94)",
+      "rgba(48,33,38,0.94)",
+      "rgba(48,33,38,0.94)"
+    ],
+
+    "MODAL_FOOTER_BACKGROUND": [
+      "rgba(36,25,29,0.96)",
+      "rgba(36,25,29,0.96)",
+      "rgba(36,25,29,0.96)"
+    ],
+
+    "EXPRESSION_PICKER_BG": [
+      "rgba(48,33,38,0.96)",
+      "rgba(48,33,38,0.96)",
+      "rgba(48,33,38,0.96)"
+    ],
+
+    "TYPING_INDICATOR_BG": [
+      "rgba(0,0,0,0.40)",
+      "rgba(0,0,0,0.40)",
+      "rgba(0,0,0,0.40)"
+    ],
+
+    "SCROLLBAR_AUTO_THUMB": [
+      "rgba(216,137,153,0.30)",
+      "rgba(216,137,153,0.30)",
+      "rgba(216,137,153,0.30)"
+    ],
+    "SCROLLBAR_AUTO_TRACK": [
+      "transparent",
+      "transparent",
+      "transparent"
+    ],
+    "SCROLLBAR_THIN_THUMB": [
+      "rgba(216,137,153,0.30)",
+      "rgba(216,137,153,0.30)",
+      "rgba(216,137,153,0.30)"
+    ],
+    "SCROLLBAR_THIN_TRACK": [
+      "transparent",
+      "transparent",
+      "transparent"
+    ]
   },
-  "colors": {
-    "PRIMARY": "#F4A6C8",
-    "PRIMARY_DARK": "#D979A7",
-    "PRIMARY_LIGHT": "#FFD1E2",
 
-    "BACKGROUND_PRIMARY": "transparent",
-    "BACKGROUND_SECONDARY": "transparent",
-    "BACKGROUND_SECONDARY_ALT": "#21151BB8",
-    "BACKGROUND_TERTIARY": "#2A1A22B8",
+  "rawColors": {
+    "PRIMARY_100": "#FFF7F7",
+    "PRIMARY_200": "#F0B7C1",
+    "PRIMARY_300": "#D88999",
+    "PRIMARY_400": "#C06F80",
+    "PRIMARY_500": "#3A292D",
+    "PRIMARY_600": "#24191D",
+    "PRIMARY_700": "#181114",
+    "PRIMARY_800": "#100B0D",
+    "BRAND_500": "#D88999",
+    "BRAND_560": "#C06F80",
+    "RED_400": "#E27F91",
+    "GREEN_360": "#8FBF9F",
+    "YELLOW_300": "#E9B97A",
+    "WHITE_500": "#F6ECEE",
+    "BLACK_500": "#100B0D",
+    "PLUM_20": "#302126",
+    "PLUM_16": "#24191D",
+    "IMAGE_ACCENT_BLUE": "#B0B4D0",
+    "IMAGE_ACCENT_BROWN": "#8D7478"
+  },
 
-    "CHAT_BACKGROUND": "transparent",
+  "plus": {
+    "version": 0,
+    "customOverlays": true
+  },
 
-    "TEXT_NORMAL": "#F7EAF0",
-    "TEXT_MUTED": "#BFA9B2",
-    "TEXT_LINK": "#F4A6C8",
-    "TEXT_POSITIVE": "#A8E6CF",
-    "TEXT_WARNING": "#FFD59A",
-    "TEXT_DANGER": "#FF9FAF",
-
-    "HEADER_PRIMARY": "#FFF2F7",
-    "HEADER_SECONDARY": "#DCC8D0",
-
-    "INTERACTIVE_NORMAL": "#E8CBD5",
-    "INTERACTIVE_HOVER": "#F4A6C8",
-    "INTERACTIVE_ACTIVE": "#FFD1E2",
-    "INTERACTIVE_MUTED": "#806C74",
-
-    "CHANNELS_DEFAULT": "#C9B4BD",
-
-    "BRAND_EXPERIMENTAL": "#F4A6C8",
-    "BRAND_500": "#F4A6C8",
-    "BRAND_560": "#D979A7",
-    "BRAND_600": "#C76596",
-    "BRAND_700": "#A94F7B",
-
-    "BUTTON_PRIMARY_BACKGROUND": "#D979A7",
-    "BUTTON_PRIMARY_BACKGROUND_HOVER": "#F4A6C8",
-    "BUTTON_PRIMARY_TEXT": "#FFFFFF",
-
-    "BUTTON_SECONDARY_BACKGROUND": "#3A2730CC",
-    "BUTTON_SECONDARY_BACKGROUND_HOVER": "#4A303BCC",
-    "BUTTON_SECONDARY_TEXT": "#F7EAF0",
-
-    "MODAL_BACKGROUND": "#21151BF2",
-    "MODAL_FOOTER_BACKGROUND": "#181115F2",
-
-    "INPUT_BACKGROUND": "#120C10B8",
-    "INPUT_PLACEHOLDER_TEXT": "#907B84",
-
-    "SCROLLBAR_THIN_THUMB": "#F4A6C888",
-    "SCROLLBAR_THIN_TRACK": "transparent",
-
-    "BACKGROUND_FLOATING": "#21151BF2",
-    "BACKGROUND_MOBILE_PRIMARY": "#181115E6",
-    "BACKGROUND_MOBILE_SECONDARY": "#21151BE6",
-
-    "CHANNEL_TEXT_AREA_PLACEHOLDER": "#A98F99",
-    "CHANNEL_ICON": "#BFA9B2",
-    "CHANNEL_ICON_ACTIVE": "#F4A6C8",
-
-    "MENTION_BACKGROUND": "#F4A6C833",
-    "MENTION_FOREGROUND": "#FFD1E2",
-
-    "STATUS_POSITIVE": "#A8E6CF",
-    "STATUS_WARNING": "#FFD59A",
-    "STATUS_DANGER": "#FF9FAF"
-  }
+  "createdAt": "2026-09-10"
 }
