@@ -513,8 +513,7 @@
     "IMAGE_ACCENT_BROWN": "#8D7478"
   },
   "background": {
-    "url": "https://cdn.discordapp.com/attachments/1538783070709088389/1547493166611963914/48e975d8b4ed8e04248e2b90bcafaffa.jpg?ex=6aa39ed1&is=6aa24d51&hm=ff21e6bcfecade98b5cbe556083c03a1c39f3ece2248bc778d25f6d530481132&",
-    "blur": 0.0,
+    "url": "48e975d8b4ed8e04248e2b90bcafaffa.jpg",
     "alpha": 0.38,
     "size": "cover",
     "position": "center"
